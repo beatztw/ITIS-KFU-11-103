@@ -125,3 +125,47 @@ import java.util.Scanner;
 //        }
 //    }
 //}
+//======================================================
+// Task 3
+//public class Task1to3 {
+//    static void triangle(int x, int y, int z) {
+//        if (x + y >= z){
+//            if (x + z >= y) {
+//                if (y + z >= x) {
+//                    System.out.println("  Треугольник существует");
+//                }
+//                }
+//            } else {
+//            System.out.println("Треугольник не существует");
+//        }
+//    }
+//    public static void main(String[] args){
+//        Scanner input = new Scanner(System.in);
+//        int x = input.nextInt();
+//        int y = input.nextInt();
+//        int z = input.nextInt();
+//        int rectangle = 12;
+//        for (int i = 0; i <= rectangle; i++){
+//            if (i == 9) {
+//                triangle(x,y,z);
+//            }
+//            for (int j = rectangle; j > i; j--){
+//                System.out.print(" ");
+//            }
+//
+//            for (int j1 = 0; j1 <= i; j1++){
+//                System.out.print("*");
+//            }
+//
+//            for (int j = 0; j < i; j++){
+//                System.out.print("*");
+//            }
+//
+//            for (int j = rectangle; j > i; j--){
+//                System.out.print(" ");
+//            }
+//            System.out.println(" ");
+//        }
+//
+//    }
+//}
