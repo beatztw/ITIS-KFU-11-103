@@ -146,7 +146,7 @@ import java.util.Scanner;
 //        int z = input.nextInt();
 //        int rectangle = 12;
 //        for (int i = 0; i <= rectangle; i++){
-//            if (i == 9) {
+//            if (i == 8) {
 //                triangle(x,y,z);
 //            }
 //            for (int j = rectangle; j > i; j--){
