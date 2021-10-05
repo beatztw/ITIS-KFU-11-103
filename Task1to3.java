@@ -169,3 +169,81 @@ import java.util.Scanner;
 //
 //    }
 //}
+//======================================================
+// DeadLine 7.10.2021
+//======================================================
+// Task 1
+//public class Task1to3 {
+//    static int fact(int n){
+//        while (n > 1){
+//            return n * fact(n-1);
+//        }
+//        return 1;
+//    }
+//    public static void main(String[] args) {
+//        Scanner input = new Scanner(System.in);
+//        int n = input.nextInt();
+//        System.out.println(fact(n));
+//    }
+//        }
+//======================================================
+// Task 2
+//public class Task1to3 {
+//    static int del3(int k , int m){
+//        if ( k % 3 == 0) {
+//            for (int j = k; j <= m ; j += 3) {
+//                System.out.print( j + " ");
+//            }
+//        } else {
+//            k++;
+//            return del3(k,m);
+//        }
+//        return null;
+//    }
+//    public static void main(String[] args) {
+//        Scanner input = new Scanner(System.in);
+//        int m = input.nextInt();
+//        int k = input.nextInt();
+//        System.out.println(del3(m,k));
+//    }
+//}
+//======================================================
+// Task 3
+//public class Task1to3 {
+//    static boolean isPrime(int c) {
+//        boolean primeBoolean = true;
+//        for (int i = 2; i < c; i++) {
+//            if (c % i == 0) {
+//                primeBoolean = false;
+//                break;
+//            }
+//        }
+//        return primeBoolean;
+//    }
+//    static void rec(int c) {
+//        int del = 2;
+//        while (del <= c) {
+//            if ((c % del) == 0) {
+//                if (del != c) {
+//                    System.out.print(del + " * ");
+//                    rec(c / del);
+//                } else {
+//                    System.out.print(del);
+//                }
+//                return;
+//            }
+//            del++;
+//        }
+//    }
+//
+//    public static void main(String[] args) {
+//        Scanner input = new Scanner(System.in);
+//        int c = input.nextInt();
+//        if (isPrime(c)) {
+//            System.out.println("Prime");
+//        } else {
+//            System.out.print("1 * ");
+//            rec(c);
+//        }
+//    }
+//}
