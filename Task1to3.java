@@ -37,7 +37,7 @@ import java.util.Scanner;
 //    }
 //}
 // ===================================================
-// Task 3 ( Прошу прощения за не чистый код, мог сделать через методы , но мы их еще не прошли , поэтому сдедал все на if-ах. )
+// Task 3
 //public class Task1to3 {
 //    public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in);
